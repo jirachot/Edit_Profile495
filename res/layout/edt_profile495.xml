@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txt15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="Birthday" />
+
+    <EditText
+        android:id="@+id/edt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt13"
+        android:layout_alignBottom="@+id/txt13"
+        android:layout_alignLeft="@+id/edt2"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/edt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt15"
+        android:layout_alignBottom="@+id/txt15"
+        android:layout_alignLeft="@+id/edt4"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/edt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt17"
+        android:layout_alignLeft="@+id/edt6"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etd_8"
+        android:layout_below="@+id/etd_8"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="13dp"
+        android:text="Save" />
+
+    <EditText
+        android:id="@+id/edt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edt5"
+        android:layout_alignLeft="@+id/edt3"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/txt13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edt4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="23dp"
+        android:text="Blood Group" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt12"
+        android:layout_alignBottom="@+id/txt12"
+        android:layout_alignLeft="@+id/edt1"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/txt12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edt3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="19dp"
+        android:text="Age" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edt2"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/txt13"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edt1"
+        android:layout_alignParentLeft="true"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/txt14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edt4"
+        android:layout_alignParentLeft="true"
+        android:text="City" />
+
+    <TextView
+        android:id="@+id/txt17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt6"
+        android:layout_marginTop="37dp"
+        android:text="Religion" />
+
+    <TextView
+        android:id="@+id/txt16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edt6"
+        android:layout_alignParentLeft="true"
+        android:text="Hobby" />
+
+    <EditText
+        android:id="@+id/edt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edt5"
+        android:layout_below="@+id/edt5"
+        android:layout_marginTop="20dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/txt18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt17"
+        android:layout_marginTop="38dp"
+        android:text="Nationnality" />
+
+    <EditText
+        android:id="@+id/etd_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt18"
+        android:layout_alignBottom="@+id/txt18"
+        android:layout_alignLeft="@+id/edt7"
+        android:layout_marginLeft="7dp"
+        android:ems="10" />
+
+</RelativeLayout>

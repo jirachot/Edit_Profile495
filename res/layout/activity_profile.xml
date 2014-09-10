@@ -1,0 +1,309 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/kkk" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="11dp"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:text="Jirachot Aphirangsimun"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txtname1"
+        android:layout_marginRight="40dp" >
+
+        <Button
+            android:id="@+id/edt_profile"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile" />
+
+        <Button
+            android:id="@+id/btnimg"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Image View" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1" >
+
+        <TextView
+            android:id="@+id/txt12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="First Blood My Android"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="9dp"
+        android:background="#cccccc" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view1"
+        android:layout_marginTop="45dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/txt13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="10dp"
+        android:text="Nickname"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view2"
+        android:layout_marginTop="45dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/txt15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view3"
+        android:layout_alignLeft="@+id/txt13"
+        android:layout_marginBottom="14dp"
+        android:text="Age"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view3"
+        android:layout_marginTop="45dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/txt17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view4"
+        android:layout_alignLeft="@+id/txt15"
+        android:layout_marginBottom="14dp"
+        android:text="Blood Group"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view4"
+        android:layout_marginTop="45dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view5"
+        android:layout_alignLeft="@+id/txt17"
+        android:layout_marginBottom="14dp"
+        android:text="City"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view5"
+        android:layout_marginTop="45dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view6"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_marginBottom="14dp"
+        android:text="BirthDay"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view6"
+        android:layout_marginTop="45dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view7"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_marginBottom="14dp"
+        android:text="Hobby"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view7"
+        android:layout_marginTop="45dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view8"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_marginBottom="14dp"
+        android:text="Religion"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view9"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_marginBottom="9dp"
+        android:text="Nationality"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView9"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignRight="@+id/txt02"
+        android:text="Sakaeo"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignRight="@+id/txt04"
+        android:text="23 Fre 1993"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView13"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignRight="@+id/txt05"
+        android:text="Badminton"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignRight="@+id/txt06"
+        android:text="Buddhism"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView17"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_alignRight="@+id/txt07"
+        android:text="Thailand"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt17"
+        android:layout_alignBottom="@+id/txt17"
+        android:layout_alignRight="@+id/txt02"
+        android:text="A"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt13"
+        android:layout_alignBottom="@+id/txt13"
+        android:layout_alignRight="@+id/txtname1"
+        android:text="Paly"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt15"
+        android:layout_alignBottom="@+id/txt15"
+        android:layout_alignLeft="@+id/txt01"
+        android:text="21"
+        android:textStyle="bold" />
+
+</RelativeLayout>
